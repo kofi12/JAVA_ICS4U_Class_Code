@@ -9,10 +9,6 @@ public class MethodPractice {
         System.out.println("The sum is " + sum + " and the average is " + avg);
     }
 
-    public static int sum(int x, int y) {
-        return x + y;
-    }
-
     public static int sum1(int[] numbers) {
         int sum = 0;
         for (int i = 0; i < numbers.length; i++) {
