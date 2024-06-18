@@ -7,6 +7,7 @@ public class MethodPractice {
         int sum = sum1(stuff);
         double avg = average(stuff);
         System.out.println("The sum is " + sum + " and the average is " + avg);
+        // Hi I've made changes to the file on my end for demonstration!!!!
     }
 
     public static int sum1(int[] numbers) {
