@@ -7,6 +7,8 @@ public class ArrayPractice {
 
         double[] grades = new double[10]; // default value is 0.0
         double grade;
+        double sum = 0;
+        double classAverage;
         String status;
         boolean go = true;
         int i = 0;
@@ -16,17 +18,19 @@ public class ArrayPractice {
             grade = in.nextDouble();
             // store the grade in the array
             grades[i] = grade;
+            sum += grade;
             i++;
 
-            System.out.println("Do you want to continue? (y/n)");
-            status = in.next();
+            // System.out.println("Do you want to continue? (y/n)");
+            // status = in.next();
 
-            if (status.equals("n")) {
-                go = false;
-            }
+            // if (status.equals("n")) {
+            // go = false;
+            // }
         }
 
-        System.out.println("Here is your list of grades: " + Arrays.toString(grades));
+        classAverage = sum / grades.length;
+        System.out.println("Your class average is " + classAverage);
 
     }
 }
