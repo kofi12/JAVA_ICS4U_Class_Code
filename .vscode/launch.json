@@ -1,0 +1,105 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ArrayPractice",
+            "request": "launch",
+            "mainClass": "src.ArrayPractice",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "BankAccountSysMain",
+            "request": "launch",
+            "mainClass": "src.BankAccountSysMain",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "InputExample",
+            "request": "launch",
+            "mainClass": "src.InputExample",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "LoopPractice",
+            "request": "launch",
+            "mainClass": "src.LoopPractice",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "MethodPractice",
+            "request": "launch",
+            "mainClass": "src.MethodPractice",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "ObjectPractice",
+            "request": "launch",
+            "mainClass": "src.ObjectPractice",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "Person",
+            "request": "launch",
+            "mainClass": "src.Person",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "PersonStudentPractice",
+            "request": "launch",
+            "mainClass": "src.PersonStudentPractice",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "SelectionExample",
+            "request": "launch",
+            "mainClass": "src.SelectionExample",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "StringComparison",
+            "request": "launch",
+            "mainClass": "src.StringComparison",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "StringFormatting",
+            "request": "launch",
+            "mainClass": "src.StringFormatting",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "Student",
+            "request": "launch",
+            "mainClass": "src.Student",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
+            "name": "Switching",
+            "request": "launch",
+            "mainClass": "src.Switching",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        }
+    ]
+}

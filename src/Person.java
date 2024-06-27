@@ -5,9 +5,6 @@ public class Person {
     String name;
 
     public Person() {
-        // When we create a Person using the default constructor like this Person p =
-        // new Person();
-        // we give default values age, gender, and name
     }
 
     public Person(int age, String name) {
@@ -21,5 +18,10 @@ public class Person {
 
     public String getName() {
         return this.name;
+    }
+
+    public static void main(String[] args) {
+        Person p = new Person(4, "Jeff");
+        System.out.println(p.getAge());
     }
 }
