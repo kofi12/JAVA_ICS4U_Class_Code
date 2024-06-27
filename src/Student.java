@@ -20,9 +20,7 @@ public class Student extends Person {
         return this.studentNumber;
     }
 
-    public static void main(String[] args) {
-        Student s = new Student();
-
-        System.out.println(s.getAge());
+    public void setStudentNumber(String studentNumber) {
+        this.studentNumber = studentNumber;
     }
 }

@@ -3,6 +3,7 @@ package src;
 public class Person {
     int age;
     String name;
+    private double balance;
 
     public Person() {
     }
@@ -20,8 +21,19 @@ public class Person {
         return this.name;
     }
 
-    public static void main(String[] args) {
-        Person p = new Person(4, "Jeff");
-        System.out.println(p.getAge());
+    public double getBalance() {
+        return this.balance;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setBalance(double balance) {
+        this.balance = balance;
     }
 }
