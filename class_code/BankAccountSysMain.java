@@ -59,5 +59,6 @@ public class BankAccountSysMain {
                 System.out.println("Invalid option. Try again.");
             }
         }
+        input.close();
     }
 }
