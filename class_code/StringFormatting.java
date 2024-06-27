@@ -1,3 +1,5 @@
+package class_code;
+
 public class StringFormatting {
     public static void main(String[] args) {
 

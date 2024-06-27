@@ -1,3 +1,5 @@
+package class_code;
+
 import java.util.Scanner;
 
 public class LoopPractice {
@@ -17,7 +19,7 @@ public class LoopPractice {
         System.out.println("\n This is a do-while loop");
 
         // do-while loop
-        // in a do-while loop it is guarenteed that the code inside the loop will be
+        // in a do-while loop it is guaranteed that the code inside the loop will be
         // executed at least once
         i = 0;
         do {

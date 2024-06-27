@@ -1,3 +1,5 @@
+package class_code;
+
 public class MethodPractice {
     public static void main(String[] args) {
 

@@ -1,3 +1,5 @@
+package class_code;
+
 public class Circle {
     int radius;
     String colour;

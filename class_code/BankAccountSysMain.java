@@ -1,3 +1,5 @@
+package class_code;
+
 import java.util.Scanner;
 
 public class BankAccountSysMain {

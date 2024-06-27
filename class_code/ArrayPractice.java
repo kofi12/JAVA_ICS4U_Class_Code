@@ -1,4 +1,5 @@
-import java.util.Arrays;
+package class_code;
+
 import java.util.Scanner;
 
 public class ArrayPractice {
@@ -9,7 +10,6 @@ public class ArrayPractice {
         double grade;
         double sum = 0;
         double classAverage;
-        String status;
         boolean go = true;
         int i = 0;
 
@@ -28,6 +28,7 @@ public class ArrayPractice {
             // go = false;
             // }
         }
+        in.close();
 
         classAverage = sum / grades.length;
         System.out.println("Your class average is " + classAverage);
