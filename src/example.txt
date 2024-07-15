@@ -1,0 +1,11 @@
+public boolean charge(BankAccount account){ // types of accounts can be Chequing, Savings, Investment, World Bank and they all inherit from BankAccount
+    // some implementation   
+}
+
+Chequing c
+Savings s
+Investment i
+
+charge(c)
+charge(s)
+charge(i)
