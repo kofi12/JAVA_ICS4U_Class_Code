@@ -16,7 +16,7 @@
     - Adds an animal to the zoo
   - `public static void listAllAnimals(String[] names, String species, int[] ages, int count)`
     - Prints the details of all animals in the zoo
-  - `public static void findAnimalByName(String[] names)`
+  - `public static boolean findAnimalByName(String[] names)`
     - Finds and displays the animal
 
 ### Coding Standards
