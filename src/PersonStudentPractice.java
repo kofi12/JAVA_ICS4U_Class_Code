@@ -1,5 +1,3 @@
-package src;
-
 public class PersonStudentPractice {
     public static void main(String[] args) {
         UnderGradStudent u = new UnderGradStudent();

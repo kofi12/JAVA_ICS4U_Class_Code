@@ -1,5 +1,3 @@
-package src;
-
 public class UnderGradStudent extends Student {
     String major;
     int year;

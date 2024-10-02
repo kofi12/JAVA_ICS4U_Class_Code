@@ -1,5 +1,3 @@
-package src;
-
 public class Student extends Person {
     String studentNumber;
 

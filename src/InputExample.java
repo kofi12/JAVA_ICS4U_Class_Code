@@ -1,5 +1,3 @@
-package src;
-
 import java.util.Scanner;
 
 public class InputExample {
@@ -14,12 +12,12 @@ public class InputExample {
         inout.close();
 
         /*
-         * 
-         * 
-         * 
-         * 
-         * 
-         * 
+         *
+         *
+         *
+         *
+         *
+         *
         */
     }
 }

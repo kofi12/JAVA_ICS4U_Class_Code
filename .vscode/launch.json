@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TypeSafety",
+            "request": "launch",
+            "mainClass": "src.TypeSafety",
+            "projectName": "Java_ICS4U_Class_Code_d226ca67"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

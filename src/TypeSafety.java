@@ -11,6 +11,7 @@ public class TypeSafety {
         int age = in.nextInt();
         String expression = "Hello " + name + " you are " + age + " years young";
 
+        in.close();
         System.out.println(expression);
     }
 }

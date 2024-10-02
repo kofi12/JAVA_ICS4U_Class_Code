@@ -1,5 +1,3 @@
-package src;
-
 public class StringFormatting {
     public static void main(String[] args) {
 
