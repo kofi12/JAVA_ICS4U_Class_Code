@@ -1,4 +1,4 @@
 *.class
-.vscode/
+/.vscode/
 .idea/
 Java_ICS4U_Class_Code.iml
