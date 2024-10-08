@@ -4,10 +4,12 @@ public class Poly {
         X parent = new X();
         Y firstChild = new Y();
         Z secondChild = new Z();
+        W grandChild = new W();
 
-        System.out.println("First child: " + getMode(firstChild) +
-                "\nSecond child: " + getMode(secondChild) +
-                "\nParent: " + getMode(parent));
+        System.out.println("First child: " + firstChild.doSomething() +
+                "\nSecond child: " + secondChild.doSomething() +
+                "\nParent: " + parent.doSomething() +
+                 "\nGrand Child: " + grandChild.doSomething());
 
     }
 

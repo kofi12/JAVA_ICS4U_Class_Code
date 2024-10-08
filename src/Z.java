@@ -4,4 +4,9 @@ public class Z extends X{
         super();
         this.mode = "Z";
     }
+
+    @Override
+    public int doSomething(){
+        return super.doSomething() + 2;
+    }
 }
