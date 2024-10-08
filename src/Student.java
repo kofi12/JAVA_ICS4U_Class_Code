@@ -21,4 +21,9 @@ public class Student extends Person {
     public void setStudentNumber(String studentNumber) {
         this.studentNumber = studentNumber;
     }
+
+    @Override
+    public double getBalance(){
+        return super.getBalance() + this.studentNumber.charAt(0);
+    }
 }

@@ -1,7 +1,7 @@
 public class Person {
     int age;
     String name;
-    private double balance;
+    double balance;
 
     public Person() {
     }
@@ -35,3 +35,6 @@ public class Person {
         this.balance = balance;
     }
 }
+
+
+
