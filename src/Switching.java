@@ -5,29 +5,29 @@ public class Switching {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Enter a number between 1 and 7 to represent a day of the week: ");
-        int day = in.nextInt();
+        String day = in.nextLine();
 
         switch (day) {
-            case 1:
-                System.out.println("Monday");
+            case "monday":
+                System.out.println(1);
                 break;
-            case 2:
-                System.out.println("Tuesday");
+            case "tuesday":
+                System.out.println(2);
                 break;
-            case 3:
-                System.out.println("Wednesday");
+            case "wednesday":
+                System.out.println(3);
                 break;
-            case 4:
-                System.out.println("Thursday");
+            case "thursday":
+                System.out.println(4);
                 break;
-            case 5:
-                System.out.println("Friday");
+            case "friday":
+                System.out.println(5);
                 break;
-            case 6:
-                System.out.println("Saturday");
+            case "saturday":
+                System.out.println(6);
                 break;
-            case 7:
-                System.out.println("Sunday");
+            case "sunday":
+                System.out.println(7);
                 break;
             default:
                 System.out.println("Invalid day");

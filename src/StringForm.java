@@ -20,5 +20,13 @@ public class StringForm {
        else{
            System.out.println(number + " is not a single digit and odd");
        }
+
+       if(number > 3){
+           System.out.println(number + " is greater than 3");
+       }
+
+       // continue in the program
+        // nested if statements
+
     }
 }
