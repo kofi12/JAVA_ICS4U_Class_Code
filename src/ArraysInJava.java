@@ -12,8 +12,8 @@ public class ArraysInJava {
         String s = "We always encounter problems where we want to store a collection of data, but each variable may only store one\n" +
                 "thing. This is where Array comes in. Array is a collection of data with the same type.";
 
-        String[] t = s.split("\\.");
-        System.out.println(Arrays.toString(t));
+
+        System.out.println(s.charAt(23));
 
 //        for(int i = 0; i < studentMarks.length; i++){
 //            System.out.print("Enter a student's mark: ");

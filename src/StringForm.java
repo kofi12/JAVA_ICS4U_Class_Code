@@ -27,6 +27,5 @@ public class StringForm {
 
        // continue in the program
         // nested if statements
-
     }
 }
